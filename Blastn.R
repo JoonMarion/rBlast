@@ -14,7 +14,8 @@ library(bio3d)
 library(openxlsx)
 library(shiny)
 
-# Define os caminhos dos arquivos de query/elemento de transposição e subject/cromossomo
+# Define os caminhos dos arquivos de query/elemento de transposição e subject/cromossomo 
+# Ps.: caminho desde a raiz
 query_file <- "/caminho/do/arquivo.fasta"
 subject_file <- "/caminho/do/arquivo.fasta"
 
