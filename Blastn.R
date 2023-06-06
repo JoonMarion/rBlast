@@ -15,8 +15,8 @@ library(openxlsx)
 library(shiny)
 
 # Define os caminhos dos arquivos de query/elemento de transposição e subject/cromossomo
-query_file <- "/home/joonmarion/R/copia25geral.fasta"
-subject_file <- "/home/joonmarion/R/cr01_fasta.fasta"
+query_file <- "/caminho/do/arquivo.fasta"
+subject_file <- "/caminho/do/arquivo.fasta"
 
 # Cria um comando blastn concatenando os caminhos dos arquivos de consulta e assunto
 blastn_command <- paste0("blastn -query ", query_file, " -subject ", subject_file, " -outfmt 6")
