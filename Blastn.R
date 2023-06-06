@@ -50,6 +50,7 @@ downloadBlastData <- function() {
 ui <- fluidPage(
   downloadLink("downloadButton", "Download Blast Data")
 )
+
 # Define a função do servidor para o aplicativo Shiny. Nessa função, é definido o manipulador
 # de download para o botão downloadButton. O manipulador especifica o nome do arquivo de download 
 # como "blast_results.xlsx" e define a função content para copiar o arquivo gerado pela função 
